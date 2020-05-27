@@ -64,7 +64,7 @@
         <log4j2-version>2.13.0</log4j2-version>
         <mockito.version>3.2.4</mockito.version>
         <netty-version>4.1.45.Final</netty-version>
-        <reactor-version>3.3.2.RELEASE</reactor-version>
+        <reactor-version>3.3.5.RELEASE</reactor-version>
         <reactive-streams-tck.version>1.0.3</reactive-streams-tck.version>
         <slf4j.version>1.7.25</slf4j.version>
         <spring-version>4.3.26.RELEASE</spring-version>
@@ -875,7 +875,7 @@
                                     <arguments>
                                         <argument>-Xmx2G</argument>
                                         <argument>-classpath</argument>
-                                        <classpath />
+                                        <classpath/>
                                         <argument>org.openjdk.jmh.Main</argument>
                                         <argument>.*</argument>
                                         <argument>-tu</argument>
@@ -949,7 +949,7 @@
                                 <phase>process-resources</phase>
                                 <configuration>
                                     <target>
-                                        <copy failonerror="false" file="${project.build.directory}/generated-docs/index.pdf" tofile="target/site/reference/pdf/lettuce-reference.pdf" />
+                                        <copy failonerror="false" file="${project.build.directory}/generated-docs/index.pdf" tofile="target/site/reference/pdf/lettuce-reference.pdf"/>
                                     </target>
                                 </configuration>
                                 <goals>
@@ -1016,9 +1016,9 @@
                                 <toclevels>3</toclevels>
                                 <numbered>true</numbered>
                                 <ext-doc>https://raw.githubusercontent.com/wiki/lettuce-io/lettuce-core/</ext-doc>
-                                <allow-uri-read />
-                                <docinfo />
-                                <toc2 />
+                                <allow-uri-read/>
+                                <docinfo/>
+                                <toc2/>
                                 <icons>font</icons>
                                 <source-highlighter>coderay</source-highlighter>
                             </attributes>
